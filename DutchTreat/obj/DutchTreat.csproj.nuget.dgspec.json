@@ -43,6 +43,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "BenchmarkDotNet": {
               "target": "Package",
               "version": "[0.11.5, )"
@@ -67,6 +71,10 @@
             "OdeToCode.UseNodeModules": {
               "target": "Package",
               "version": "[1.0.6, )"
+            },
+            "SyrianBallaS.AutoMapper.Extensions.Microsoft.DependencyInjection.Signed": {
+              "target": "Package",
+              "version": "[3.2.0, )"
             }
           },
           "imports": [
